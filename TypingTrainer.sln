@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingTrainer.Core", "Typin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingTrainer.Cli", "TypingTrainer.Cli\TypingTrainer.Cli.csproj", "{52C36610-ED8D-436E-ADA3-A71077F25891}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypingTrainer.Tests", "TypingTrainer.Tests\TypingTrainer.Tests.csproj", "{6B2C66FE-8DA1-4703-9183-8368F40F868E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{52C36610-ED8D-436E-ADA3-A71077F25891}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C36610-ED8D-436E-ADA3-A71077F25891}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C36610-ED8D-436E-ADA3-A71077F25891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2C66FE-8DA1-4703-9183-8368F40F868E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2C66FE-8DA1-4703-9183-8368F40F868E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2C66FE-8DA1-4703-9183-8368F40F868E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2C66FE-8DA1-4703-9183-8368F40F868E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
