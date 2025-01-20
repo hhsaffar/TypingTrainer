@@ -20,4 +20,9 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TypingTrainer.Core\TypingTrainer.Core.csproj" />
+    <ProjectReference Include="..\TypingTrainer.Cli\TypingTrainer.Cli.csproj" />
+  </ItemGroup>
+
 </Project>
