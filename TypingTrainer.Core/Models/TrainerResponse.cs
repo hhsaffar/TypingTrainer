@@ -1,3 +1,4 @@
+namespace TypingTrainer.Core.Models;
 public class TrainerResponse
 {
     public ResponseMessageType ResponseType { get; private set; }

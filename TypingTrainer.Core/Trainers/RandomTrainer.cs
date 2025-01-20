@@ -1,4 +1,8 @@
-internal class RandomTrainer : ITrainer
+using TypingTrainer.Core.Interfaces;
+using TypingTrainer.Core.Models;
+
+namespace TypingTrainer.Core.Trainers;
+public class RandomTrainer : ITrainer
 {
     private readonly char[] _allKeys;
     private char _lastChallenge;
